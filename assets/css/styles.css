@@ -30,7 +30,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #2a2e32;
 }
 
 .bg-w {
@@ -39,26 +38,6 @@ body {
 
 .bg-b {
   background-color: #2a2e32;
-}
-
-h2 {
-  font-family: "friz_quadrataregular", sans-serif;
-}
-
-.font-poppins {
-  font-family: "Poppins", sans-serif;
-}
-
-.active {
-  /* color: #0d6efd !important; */
-}
-
-.hexagon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-style: initial;
-  font-size: 1.2rem;
 }
 
 #btn-back-to-top {

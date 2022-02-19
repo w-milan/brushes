@@ -1,37 +1,33 @@
-/* Discord Navigation */
+/* search Navigation */
 a, 
 a:link,
 a:visited{
     text-decoration: none;
 }
-.icon-discord{
-    padding-left: 5px;
+.search-nav-padding{
+    justify-content: normal !important;
 }
-.icon-coins{
-    padding-right: 5px;
-}
-.discord-navigation{
+.search-navigation{
     font-size: 14px;
-    border-bottom: 1px solid #8080803b;
-    background-color: #1c1c1c;
+    color: black;
 }
 .navigation-padding{
     padding: 16px;
 }
-.navigation-under-discord{
+.navigation-under-search{
     font-weight: bold;
-    background-color: #1c1c1c;
+    color: black;
 }
 .logo-img-navigation{
     height: 37.5px;
 }
 /* additional */
-.navbar-discord{
+.navbar-search{
     color: white;
 }
-.navbar-discord:hover{
+.navbar-search:hover{
     color: rgb(228, 228, 228);
 }
-/* .discord-nav-padding{
-    padding-left: 0;
-} */
+#navbarNavDropdown{
+    justify-content: center;
+}

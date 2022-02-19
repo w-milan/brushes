@@ -1,21 +1,20 @@
 header {
-  background-image: url("../img/wolf-f9-o6.png");
+  /* background-image: url("../img/wolf-f9-o6.png");
   background-size: contain;
   background-position: right;
-  background-repeat: no-repeat;
-  /* height: 555px; */
-  display: flex;
-  align-items: center;
+  background-repeat: no-repeat; */
+  /* display: flex; */
+
 }
 
 .tos-header {
-  background-image: url("../img/hero-o4.png");
+  /* background-image: url("../img/hero-o4.png");
   background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   height: 450px;
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+
 }
 .color-bg-header {
   background-color: rgb(28, 28, 28);
