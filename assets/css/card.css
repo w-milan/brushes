@@ -1,0 +1,122 @@
+.card-transparent {
+  background-color: inherit;
+  border: inherit;
+}
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.list-group-products li {
+  margin: 3px;
+}
+.in-list-text {
+  justify-content: space-between;
+}
+.price-tag {
+  margin: auto 0;
+  font-size: 24px;
+  text-align: right;
+  margin-right: 10px;
+}
+.server-list {
+  justify-content: center;
+}
+.server-list div {
+  padding: 10px;
+  margin: 2px;
+  color: white;
+  /* border: 1px solid rgb(71, 71, 71); */
+}
+
+/* CARDS SERVER ESSENCE CHECKOUT */
+
+/* .choose-server-section{
+  transition: opacity 2s;
+} */
+
+/* Numbers*/
+.numbers-button {
+  border-radius: 100%;
+  width: 40px;
+  background-color: rgba(211 212 213 / 50%);
+}
+.number-row {
+  padding-top: 25px;
+  text-align: center;
+}
+.number-row .numbers-button {
+  margin: 0 10px;
+}
+/* button active */
+/* .button-active{
+  background-color: rgb(255, 198, 93);
+} */
+.button-active {
+  background-color: #ffffff;
+  /* color: #fff; */
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253);
+}
+
+/* .btn-check:focus + .btn-light,
+.btn-light:focus {
+  color: #000;
+  background-color: #f9fafb;
+  border-color: #f9fafb;
+  box-shadow: 0 0 0 0.25rem rgb(255, 198, 93);
+} */
+
+.checkout-card {
+  margin: 0 auto;
+}
+.checkout-card ul li {
+  border: none;
+}
+/* Checkout */
+.included-card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.under-included-card {
+  font-size: 12px;
+}
+.btn-checkout {
+  border-radius: 0;
+  padding: 12px 16px;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* image */
+.gem-image-text {
+  position: relative;
+}
+.gem-image {
+  position: absolute;
+  /* left: 195px; */
+  right: 65px;
+  top: -15px;
+}
+.gem-image img {
+  width: 120px;
+}
+/* checkbox */
+.input-checkbox-warranty {
+  margin-right: 10px;
+}
+
+.list-group.list-group-flush.list-group-products {
+  cursor: pointer;
+}
+.list-group-products li:hover {
+  outline: 3px solid #0d6efd;
+}
+.cs-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cs-item {
+  background-color: transparent;
+  padding: 0 6px;
+  border: none;
+}

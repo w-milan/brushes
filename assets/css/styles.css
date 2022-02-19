@@ -1,0 +1,130 @@
+@import url("navigation.css");
+@import url("header.css");
+@import url("card.css");
+@import url("faq.css");
+@import url("reviews.css");
+
+@font-face {
+  font-family: "frizquadratabold";
+  src: url("../webfonts/friz_quadrata_bold-webfont.woff2") format("woff2"),
+    url("../webfonts/friz_quadrata_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "friz_quadrataregular_italic";
+  src: url("../webfonts/friz_quadrata_italic-webfont.woff2") format("woff2"),
+    url("../webfonts/friz_quadrata_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "friz_quadrataregular";
+  src: url("../webfonts/friz_quadrata_regular-webfont.woff2") format("woff2"),
+    url("../webfonts/friz_quadrata_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "friz_quadrataregular", Arial, Helvetica, sans-serif;
+  background-color: #2a2e32;
+}
+
+.bg-w {
+  background-color: #f7fafc;
+}
+
+.bg-b {
+  background-color: #2a2e32;
+}
+
+h2 {
+  font-family: "friz_quadrataregular", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.active {
+  /* color: #0d6efd !important; */
+}
+
+.hexagon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: initial;
+  font-size: 1.2rem;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+/*******************************************
+RESPONSIVE
+*******************************************/
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  /* Review Container */
+  .review-container {
+    max-width: 100%;
+  }
+  /* TOS */
+  .tos-header {
+    height: 100%;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .number-row {
+    padding-bottom: 25px;
+  }
+}
+/* X-Small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+  /*** Navigation ***/
+  .navbar-brand {
+    margin-right: 0;
+  }
+  /*** Header ***/
+  header .header-title {
+    font-size: 1.6rem;
+  }
+  header .header-par {
+    font-size: 1rem;
+  }
+  .server-title {
+    font-size: 1.4rem;
+  }
+  .cs-item {
+    padding: 5px 15px;
+  }
+  .number-row {
+    display: block !important;
+  }
+  /*** FAQ ***/
+
+  /* Review */
+  .rev-cc-w {
+    width: 100%;
+  }
+}
