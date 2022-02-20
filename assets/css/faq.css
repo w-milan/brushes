@@ -16,17 +16,17 @@ section {
   z-index: -1;
 }
 .faq {
-  background-image: url("../img/tank.png");
+  /* background-image: url("../img/tank.png"); */
   background-size: contain;
   background-position: left;
   background-repeat: no-repeat;
 }
-.faq-two{
+.faq-two {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
-.faq-two-css{
+.faq-two-css {
   background-color: white;
-  -webkit-box-shadow: 6px 8px 16px 2px rgba(0,0,0,0.23); 
-  box-shadow: 6px 8px 16px 2px rgba(0,0,0,0.23);
+  -webkit-box-shadow: 6px 8px 16px 2px rgba(0, 0, 0, 0.23);
+  box-shadow: 6px 8px 16px 2px rgba(0, 0, 0, 0.23);
 }
