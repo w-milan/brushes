@@ -1,9 +1,9 @@
 header {
-  /* background-image: url("../img/wolf-f9-o6.png");
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat; */
-  /* display: flex; */
+  background-image: url("../img/pozadina.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  /* display: flex;
 
 }
 
