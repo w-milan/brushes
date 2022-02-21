@@ -4,30 +4,6 @@
 @import url("faq.css");
 @import url("reviews.css");
 
-@font-face {
-  font-family: "frizquadratabold";
-  src: url("../webfonts/friz_quadrata_bold-webfont.woff2") format("woff2"),
-    url("../webfonts/friz_quadrata_bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "friz_quadrataregular_italic";
-  src: url("../webfonts/friz_quadrata_italic-webfont.woff2") format("woff2"),
-    url("../webfonts/friz_quadrata_italic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "friz_quadrataregular";
-  src: url("../webfonts/friz_quadrata_regular-webfont.woff2") format("woff2"),
-    url("../webfonts/friz_quadrata_regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -61,6 +37,10 @@ RESPONSIVE
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .top-bar .search-field {
+    margin-left: 0;
+    width: 47% !important;
+  }
   /* Review Container */
   .review-container {
     max-width: 100%;
@@ -83,6 +63,9 @@ RESPONSIVE
   /*** Navigation ***/
   .navbar-brand {
     margin-right: 0;
+  }
+  .navbar-brand.navbar-brand-up {
+    display: none;
   }
   /*** Header ***/
   header .header-title {
