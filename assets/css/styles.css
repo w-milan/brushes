@@ -13,7 +13,7 @@ body {
 }
 
 .bg-b {
-  background-color: #2a2e32;
+  background-color: #000;
 }
 
 #btn-back-to-top {
@@ -21,6 +21,9 @@ body {
   bottom: 20px;
   right: 20px;
   display: none;
+}
+.footer-list-title {
+  font-size: 1.25rem;
 }
 
 /*******************************************
