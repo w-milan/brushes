@@ -1,10 +1,9 @@
 // Owl carousel
 $('.owl-carousel').owlCarousel({
-  loop:true,
+  loop:false,
   margin:10,
   lazyLoad:true,
-  loop:true,
-  autoplay:true,
+  autoplay:false,
   autoplayTimeout:3000,
   autoplayHoverPause:true,
   nav:true,
@@ -16,7 +15,7 @@ $('.owl-carousel').owlCarousel({
           items:3
       },
       1000:{
-          items:5
+          items:3
       }
   }
 })
