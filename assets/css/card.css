@@ -2,11 +2,13 @@
   background-color: inherit;
   border: inherit;
 }
-.categories-under-title-card{
+.categories-under-title-card {
   font-size: 13px;
 }
-.categories-title-card{
-  font-size: 16px;
+.categories-title-card,
+.pop-brush-title {
+  /* font-size: 16px; */
+  font-size: 1rem;
   font-weight: bold;
 }
 .list-group-products li {
