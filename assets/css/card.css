@@ -33,6 +33,10 @@
   /* border: 1px solid rgb(71, 71, 71); */
 }
 
+.owl-carousel .item .card-body {
+  color: #000;
+}
+
 /* CARDS SERVER ESSENCE CHECKOUT */
 
 /* .choose-server-section{
