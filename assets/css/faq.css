@@ -38,3 +38,8 @@ section {
   background-position: center;
   background-repeat: no-repeat;
 }
+/* TOS */
+.cat-image-section-image{
+  padding: 150px;
+  background-color: rgb(39, 48, 133);
+}
