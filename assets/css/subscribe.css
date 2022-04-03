@@ -1,0 +1,44 @@
+.subscribe-card-border{ 
+  border: 4px solid rgb(0, 89, 255);
+  border-radius: 9px;
+}
+
+.sub-green-icon{
+  color: #3BDE83;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.sub-price-table {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 65px;
+}
+
+.sub-currency {
+  align-self: flex-start;
+  font-size: 30px
+}
+
+.sub-integer-part {
+  line-height: 0.8;
+}
+
+.sub-period {
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 400;
+  font-size: medium;
+  font-style: normal;
+  width: 100%;
+  color: #54595f;
+}
