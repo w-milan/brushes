@@ -130,12 +130,12 @@
   border: none;
 }
 .popular-brush-categories a {
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .popular-brush-categories img {
-  height: 120px;
+  /* height: 120px;
   width: auto;
-  object-fit: contain;
+  object-fit: contain; */
 }
 .popular-brush-categories h3 {
   color: #000;
