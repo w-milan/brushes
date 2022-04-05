@@ -129,14 +129,7 @@
   padding: 0 6px;
   border: none;
 }
-.popular-brush-categories a {
-  /* margin: 0 auto; */
-}
-.popular-brush-categories img {
-  /* height: 120px;
-  width: auto;
-  object-fit: contain; */
-}
+
 .popular-brush-categories h3 {
   color: #000;
 }
