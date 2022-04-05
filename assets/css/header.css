@@ -1,9 +1,9 @@
 header {
-  background-image: url("../img/pozadina.png");
+  background-image: url("../img/glavna-slika.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
-  height: 765px;
+  height: 875px;
   /* display: flex;
 
 }
