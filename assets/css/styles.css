@@ -81,6 +81,18 @@ body {
   transition: transform 900ms;
 }
 
+.frame-wrapper {
+  position: relative;
+}
+
+.frame-wrapper h2 {
+  position: absolute;
+  top: 55%;
+  right: 30%;
+  width: 40%;
+  text-align: center;
+}
+
 
 /*******************************************
 RESPONSIVE
