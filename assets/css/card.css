@@ -130,3 +130,11 @@
   border: none;
 }
 
+.popular-brush-categories img {
+  height: 120px;
+  width: auto;
+  object-fit: contain;
+}
+.popular-brush-categories h3 {
+  color: #000;
+}
