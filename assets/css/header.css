@@ -17,7 +17,7 @@ header {
   /* display: flex; */
 
 }
-.color-bg-header {
+/* .color-bg-header {
   background-color: rgb(28, 28, 28);
   background-color: linear-gradient(
     180deg,
@@ -25,7 +25,7 @@ header {
     rgba(34, 34, 34, 1) 66%,
     rgba(42, 46, 50, 1) 100%
   );
-}
+} */
 
 
 a.nav-link{
