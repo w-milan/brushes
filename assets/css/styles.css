@@ -9,6 +9,9 @@
 body {
   /* font-family: "Roboto", sans-serif; */
 }
+a, a:hover {
+  color: #000;
+}
 
 @font-face {
   font-family: "champagne";
