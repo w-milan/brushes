@@ -142,6 +142,9 @@ RESPONSIVE
     display: none;
   }
   /*** Header ***/
+  header {
+    height: 250px;
+  }
   header .header-title {
     font-size: 1.6rem;
   }
