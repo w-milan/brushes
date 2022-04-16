@@ -169,4 +169,18 @@ RESPONSIVE
   .rev-cc-w {
     width: 100%;
   }
+
+  /* Navbar Active Off*/
+  a.nav-link::before {
+    display: none;
+    
+  }
+  a.nav-link.active{
+   border: none;
+  }
+  a.nav-link.active span{
+    position: relative;
+    border-bottom: 2px solid #ad1d94;
+    bottom: 2px;
+  }
 }
