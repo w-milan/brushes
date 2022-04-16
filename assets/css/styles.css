@@ -143,7 +143,13 @@ RESPONSIVE
   }
   .navbar-brand.navbar-brand-up {
     display: none;
+
   }
+
+  .logo-img-navigation {
+    height: 37px;
+  }
+ 
   /*** Header ***/
   header {
     height: 250px;
